@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "img": "Mount-Ulap",
+    "name": "Mount Ulap",
+    "description": "One of the most famous hikes in Benguest is Mt Ulap in Itogon."
+  },
+  {
+    "id": 2,
+    "img": "Calagus-Islands",
+    "name": "Calagus Islands",
+    "description": "A paradise of islands that can rival the white sand beauty of Boracay."
+  },
+  {
+    "id": 3,
+    "img": "Onay-Beach",
+    "name": "Onay Beach",
+    "description": "This is one of the best camping sites, beautiful and pristine."
+  },
+  {
+    "id": 4,
+    "img": "Seven-Sisters-Waterfall",
+    "name": "Seven Sisters Waterfall",
+    "description": "The Seven Sisters is the 39th tallest waterfall in Norway."
+  },
+  {
+    "id": 5,
+    "img": "Latik-Riverside",
+    "name": "Latik Riverside",
+    "description": "Phillipines is one of the most dazzling countries in all of Asia."
+  },
+  {
+    "id": 6,
+    "img": "Buloy-Springs",
+    "name": "Buloy Springs",
+    "description": "This is one of the best beach camping sites, beautiful and pristine."
+  }
+]

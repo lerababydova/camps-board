@@ -1,0 +1,142 @@
+@import "../../variables.scss";
+
+.container {
+  height: 100vh;
+}
+
+h1 {
+  font-size: 44px;
+  margin: 0;
+  line-height: 48px;
+}
+
+.logo {
+  height: 100px;
+  width: 400px;
+
+  max-width: 400px;
+  img {
+    width: 118px;
+  }
+}
+
+.landing-container {
+  display: flex;
+  height: 100%;
+
+  &_img {
+    width: 500px;
+    background-image: url("../../../public/assets/HeroImage.jpg");
+    background-size: cover;
+    flex: 1;
+  }
+
+  &_left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1.3;
+
+    &-wrapper {
+      width: 60%;
+      max-width: 400px;
+    }
+  }
+  &_text {
+    color: #000000a8;
+    margin: 10px 0;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  &_list {
+    font-size: 14px;
+    color: #000000a8;
+    list-style: none;
+    padding: 0;
+
+    &-item {
+      margin-bottom: 15px;
+      display: flex;
+      align-items: center;
+      column-gap: 10px;
+    }
+  }
+
+  &_button {
+    background-color: black;
+    border: black;
+    color: white;
+    padding: 15px 20px;
+    margin: 5px 0 15px 0;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.5s;
+
+    &:hover {
+      background-color: #000000b8;
+      border: #000000b8;
+    }
+  }
+
+  &_partners {
+    color: #000000a8;
+    font-size: 14px;
+  }
+
+  &_logos {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+@include tabletAndMobile {
+  .logo {
+    height: 65px;
+    width: unset;
+    max-width: unset;
+    margin-left: 30px;
+    display: flex;
+  }
+  h1 {
+    font-size: 35px;
+    margin-top: 20px;
+  }
+  .landing-container {
+    height: unset;
+
+    &_left {
+      align-items: flex-start;
+    }
+
+    &_img {
+      display: none;
+    }
+
+    &_img-tablet {
+      min-height: 375px;
+      width: 100%;
+      background-image: url("../../../public/assets/Hero\ Image\ \(Tablet\ and\ Mobile\).jpg");
+      background-size: cover;
+      flex: 1;
+    }
+
+    &_left-wrapper {
+      width: unset;
+      max-width: unset;
+      margin-left: 30px;
+    }
+  }
+}
+
+@include mobile {
+  .landing-container_img-tablet {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    min-height: 205px;
+  }
+}

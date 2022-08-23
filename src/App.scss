@@ -1,0 +1,16 @@
+#airbnb-icon {
+  &_gray {
+    $icon: &;
+
+    &-path {
+      fill: #c4cbd1;
+      transition: 0.5s;
+    }
+
+    &:hover {
+      #{$icon}-path {
+        fill: #ff5a5f;
+      }
+    }
+  }
+}
