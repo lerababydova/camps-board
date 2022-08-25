@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
+import Button from "../Buttons/Button";
 import { AirbnbIcon } from "../Icons/PartnerIcons";
 import "./styles.scss";
 
 const LandingPage = () => {
   return (
     <section className="container">
-      <header></header>
       <div className="landing-container">
         <div className="landing-container_left">
           <div className="logo">
@@ -45,9 +45,7 @@ const LandingPage = () => {
               </li>
             </ul>
             <Link to={"/camps"}>
-              <button className="landing-container_button">
-                View Campgrounds
-              </button>
+              <Button text={"View Campgrounds"} type={"primary"} />
             </Link>
             <p className="landing-container_partners">Partnered with:</p>
             <div className="landing-container-logos">
