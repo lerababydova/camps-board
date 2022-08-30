@@ -3,6 +3,7 @@ import "./App.scss";
 import Camps from "./components/Camps/Camps";
 import LandingPage from "./components/LandingPage/LandingPage";
 import LogInPage from "./components/LogInPage/LogInPage";
+import SignUpPage from "./components/SignUpPage/SignUpPage";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route path="/" element={<LandingPage />} />
           <Route path="/camps" element={<Camps />} />
           <Route path="/login" element={<LogInPage />} />
+          <Route path="/signup" element={<SignUpPage />} />
         </Routes>
       </BrowserRouter>
     </div>

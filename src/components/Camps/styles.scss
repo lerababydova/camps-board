@@ -5,51 +5,6 @@
   width: 1012px;
 }
 
-.header {
-  height: 100px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  &_left-side {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    column-gap: 45px;
-
-    &-home-page {
-      color: rgba(0, 0, 0, 0.6588235294);
-      font-size: 17px;
-      font-weight: 500;
-      cursor: pointer;
-      transition: 0.5s;
-
-      &:hover {
-        color: black;
-      }
-    }
-  }
-
-  &_right-side {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 30px;
-
-    &-login {
-      color: rgba(0, 0, 0, 0.6588235294);
-      font-size: 17px;
-      font-weight: 500;
-      cursor: pointer;
-      transition: 0.5s;
-
-      &:hover {
-        color: black;
-      }
-    }
-  }
-}
-
 .welcome-section {
   background-color: #f7f2ebe0;
   padding: 50px 30px;
@@ -123,29 +78,8 @@
 }
 
 @include tabletAndMobile {
-  .header {
-    &_right-side {
-      .camp-button {
-        display: none;
-      }
-    }
-  }
   .camps-container {
     width: 87%;
-  }
-
-  .header {
-    &_left-side {
-      &-home-page {
-        display: none;
-      }
-    }
-
-    &_right-side {
-      &-login {
-        display: none;
-      }
-    }
   }
 }
 

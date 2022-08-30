@@ -3,27 +3,13 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import Button from "../Buttons/Button";
 import camps from "./camps.json";
+import Header from "../Header/Header";
 import "./styles.scss";
 
 const Camps = () => {
   return (
     <section className="camps-container">
-      <header className="header">
-        <div className="header_left-side">
-          <div className="header_logo">
-            <img src="/assets/logo.svg" alt=""></img>
-          </div>
-          <Link to={"/"} className="header_left-side-home-page">
-            Home
-          </Link>
-        </div>
-        <div className="header_right-side">
-          <Link to={"/login"} className="header_right-side-login">
-            Login
-          </Link>
-          <Button text={"Create an account"} type={"primary"} />
-        </div>
-      </header>
+      <Header />
       <section className="main">
         <div className="welcome-section">
           <h1 className="welcome-section_title">Welcome to YelpCamp!</h1>

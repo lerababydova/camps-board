@@ -4,7 +4,7 @@ import Button from "../Buttons/Button";
 
 import "./styles.scss";
 
-const LogInPage = () => {
+const SignUpPage = () => {
   return (
     <section className="login-container">
       <div className="login-container_left">
@@ -19,34 +19,28 @@ const LogInPage = () => {
         <div className="main-container">
           <div className="login-container_left-signin">
             <h1>Start exploring camps from all around the world.</h1>
-            <div className="login-container_left-signin-forms">
-              <p className="login-container_left-signin-input-title">
-                Username
-              </p>
-              <input
-                className="login-container_left-signin-input-username"
-                type="text"
-                placeholder="Enter username"
-              />
-              <p className="login-container_left-signin-input-title">
-                Password
-              </p>
-              <input
-                className="login-container_left-signin-input-password"
-                type="password"
-                placeholder="Enter Your password"
-              />
-              <Button text={"Login"} type={"primary"} />
-              <span className="login-container_left-signin-string">
-                Not a user yet?
-                <Link
-                  to={"/signup"}
-                  className="login-container_left-signin-create-link"
-                >
-                  Create an account
-                </Link>
-              </span>
-            </div>
+            <p className="login-container_left-signin-input-title">Username</p>
+            <input
+              className="login-container_left-signin-input-username"
+              type="text"
+              placeholder="Enter username"
+            />
+            <p className="login-container_left-signin-input-title">Password</p>
+            <input
+              className="login-container_left-signin-input-password"
+              type="password"
+              placeholder="Enter Your password"
+            />
+            <Button text={"Create an account"} type={"primary"} />
+            <span className="login-container_left-signin-string">
+              Already a user?
+              <Link
+                to={"/login"}
+                className="login-container_left-signin-create-link"
+              >
+                Sign in
+              </Link>
+            </span>
           </div>
         </div>
       </div>
@@ -73,4 +67,4 @@ const LogInPage = () => {
   );
 };
 
-export default LogInPage;
+export default SignUpPage;
