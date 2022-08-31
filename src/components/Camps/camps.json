@@ -1,38 +1,68 @@
 [
   {
     "id": 1,
+    "slug": "mount-ulap",
     "image": "Mount-Ulap.png",
     "title": "Mount Ulap",
-    "description": "One of the most famous hikes in Benguest is Mt Ulap in Itogon."
+    "price": 104.99,
+    "description": "One of the most famous hikes in Benguest is Mt Ulap in Itogon.",
+    "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas facilisis tincidunt cursus. Vivamus non augue metus. Aliquam dolor nisl, lacinia at congue vitae, tincidunt eget dui. Donec aliquam libero quis viverra consectetur. Sed quis varius lorem, in elementum ex. Donec porta pellentesque consequat.",
+    "map": "Map.png",
+    "userName": "Andrew Mike"
   },
   {
     "id": 2,
+    "slug": "calagus-islands",
     "image": "Calagus-Islands.jpg",
     "title": "Calagus Islands",
-    "description": "A paradise of islands that can rival the white sand beauty of Boracay."
+    "price": 104.99,
+    "description": "A paradise of islands that can rival the white sand beauty of Boracay.",
+    "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas facilisis tincidunt cursus. Vivamus non augue metus. Aliquam dolor nisl, lacinia at congue vitae, tincidunt eget dui. Donec aliquam libero quis viverra consectetur. Sed quis varius lorem, in elementum ex. Donec porta pellentesque consequat.",
+    "map": "Map.png",
+    "userName": "Ivan Johnson"
   },
   {
     "id": 3,
+    "slug": "onay-beach",
     "image": "Onay-Beach.jpg",
     "title": "Onay Beach",
-    "description": "This is one of the best camping sites, beautiful and pristine."
+    "price": 104.99,
+    "description": "This is one of the best camping sites, beautiful and pristine.",
+    "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas facilisis tincidunt cursus. Vivamus non augue metus. Aliquam dolor nisl, lacinia at congue vitae, tincidunt eget dui. Donec aliquam libero quis viverra consectetur. Sed quis varius lorem, in elementum ex. Donec porta pellentesque consequat.",
+    "map": "Map.png",
+    "userName": "Matt Hoffman"
   },
   {
     "id": 4,
+    "slug": "seven-sisters-waterfall",
     "image": "Seven-Sisters-Waterfall.jpg",
     "title": "Seven Sisters Waterfall",
-    "description": "The Seven Sisters is the 39th tallest waterfall in Norway."
+    "price": 104.99,
+    "description": "The Seven Sisters is the 39th tallest waterfall in Norway.",
+    "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas facilisis tincidunt cursus. Vivamus non augue metus. Aliquam dolor nisl, lacinia at congue vitae, tincidunt eget dui. Donec aliquam libero quis viverra consectetur. Sed quis varius lorem, in elementum ex. Donec porta pellentesque consequat.",
+    "map": "Map.png",
+    "userName": "Brad Stanley"
   },
   {
     "id": 5,
+    "slug": "latik-riverside",
     "image": "Latik-Riverside.jpg",
     "title": "Latik Riverside",
-    "description": "Phillipines is one of the most dazzling countries in all of Asia."
+    "price": 104.99,
+    "description": "Phillipines is one of the most dazzling countries in all of Asia.",
+    "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas facilisis tincidunt cursus. Vivamus non augue metus. Aliquam dolor nisl, lacinia at congue vitae, tincidunt eget dui. Donec aliquam libero quis viverra consectetur. Sed quis varius lorem, in elementum ex. Donec porta pellentesque consequat.",
+    "map": "Map.png",
+    "userName": "Joe Greenwald"
   },
   {
     "id": 6,
+    "slug": "buloy-springs",
     "image": "Buloy-Springs.jpg",
     "title": "Buloy Springs",
-    "description": "This is one of the best beach camping sites, beautiful and pristine."
+    "price": 104.99,
+    "description": "This is one of the best beach camping sites, beautiful and pristine.",
+    "fullDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas facilisis tincidunt cursus. Vivamus non augue metus. Aliquam dolor nisl, lacinia at congue vitae, tincidunt eget dui. Donec aliquam libero quis viverra consectetur. Sed quis varius lorem, in elementum ex. Donec porta pellentesque consequat.",
+    "map": "Map.png",
+    "userName": "Scott McDaniel"
   }
 ]

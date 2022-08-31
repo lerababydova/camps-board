@@ -42,7 +42,9 @@ const Camps = () => {
                 <p className="camps-section_card-description">
                   {camp.description}
                 </p>
-                <Button text={"View Campground"} type={"secondary"}></Button>
+                <Link to={`/camp/${camp.slug}`}>
+                  <Button text={"View Campground"} type={"secondary"}></Button>
+                </Link>
               </div>
             );
           })}
